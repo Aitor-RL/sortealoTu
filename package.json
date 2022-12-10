@@ -1,0 +1,23 @@
+{
+  "name": "sortealotu",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "converage": "vitest run --coverage",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "cypress:open": "cypress open"
+  },
+  "devDependencies": {
+    "@vitest/coverage-c8": "^0.24.5",
+    "vite": "^3.1.0",
+    "vitest": "^0.24.5"
+  },
+  "dependencies": {
+    "cypress": "^10.11.0",
+    "party-js": "^2.2.0"
+  }
+}
